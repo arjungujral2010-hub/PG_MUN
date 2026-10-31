@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conference Schedule | PG-MUN 2026 | Dr. Pillai Global Academy</title>
+  <meta name="description" content="View the two-day conference itinerary for PG-MUN 2026: committee sessions, debate, negotiations, awards ceremony, and DJ celebration on 21-22 November 2026.">
+  <meta name="keywords" content="PG-MUN Schedule, Conference Itinerary, Model United Nations Timeline, DPGA Panvel, Student Diplomacy Schedule">
+  <link rel="icon" type="image/png" href="assets/images/pgmun_logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <span class="badge-alert">Important Notice</span>
+    <span>REGISTRATIONS CLOSE: <strong>30 OCTOBER 2026</strong> • LIMITED SEATS AVAILABLE ACROSS 5 COMMITTEES</span>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNv4Wtp6TJ-hSDyX7u2MZJtW9Ut5UFmDq5buCmw1AXc2uBw/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-gold" style="margin-left: 0.5rem; padding: 0.25rem 0.75rem; font-size: 0.75rem;">Apply Now</a>
+  </div>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar" id="mainNavbar">
+    <div class="container-wide nav-container">
+      <a href="index.html" class="nav-brand" aria-label="PG-MUN 2026 Home">
+        <img src="assets/images/pgmun_logo.png" alt="PG-MUN 2026 Official Logo" class="nav-logo">
+        <div class="nav-brand-text">
+          <span class="brand-title">PG-MUN 2026</span>
+          <span class="brand-subtitle">DPGA New Panvel</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="committees.html" class="nav-link">Committees</a></li>
+          <li><a href="index.html#why-pgmun" class="nav-link">Why PG-MUN?</a></li>
+          <li><a href="awards.html" class="nav-link">Awards</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="schedule.html" class="nav-link active">Schedule</a></li>
+          <li><a href="venue.html" class="nav-link">Venue</a></li>
+          <li><a href="faqs.html" class="nav-link">FAQs</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNv4Wtp6TJ-hSDyX7u2MZJtW9Ut5UFmDq5buCmw1AXc2uBw/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Register Now
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Inner Hero Header -->
+  <section class="inner-hero">
+    <div class="container">
+      <div class="breadcrumb-nav">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span class="current">Schedule</span>
+      </div>
+
+      <div class="inner-hero-content">
+        <div class="section-tag">Conference Itinerary</div>
+        <h1 class="inner-hero-title">TWO DAYS OF DIPLOMACY AND DISCOVERY.</h1>
+        <p class="inner-hero-subtitle">
+          Explore the conference timeline across 21st and 22nd November 2026. From opening roll calls to working papers, awards, and the post-summit celebration.
+        </p>
+
+        <!-- Live Countdown Timer -->
+        <div class="countdown-box" style="margin-top: 2rem;">
+          <div class="countdown-heading">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Time Remaining Until PG-MUN 2026 Assembly</span>
+          </div>
+          <div class="countdown-digits">
+            <div class="digit-segment">
+              <span class="digit-number" id="count-days">00</span>
+              <span class="digit-label">Days</span>
+            </div>
+            <span class="digit-colon">:</span>
+            <div class="digit-segment">
+              <span class="digit-number" id="count-hours">00</span>
+              <span class="digit-label">Hours</span>
+            </div>
+            <span class="digit-colon">:</span>
+            <div class="digit-segment">
+              <span class="digit-number" id="count-minutes">00</span>
+              <span class="digit-label">Minutes</span>
+            </div>
+            <span class="digit-colon">:</span>
+            <div class="digit-segment">
+              <span class="digit-number" id="count-seconds">00</span>
+              <span class="digit-label">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Timeline Section -->
+  <section class="section-padding">
+    <div class="container">
+
+      <!-- Schedule Filter Switcher -->
+      <div class="schedule-tab-nav">
+        <button class="schedule-tab-btn active" data-day="all">All Days</button>
+        <button class="schedule-tab-btn" data-day="day1">Day 1 (21 Nov)</button>
+        <button class="schedule-tab-btn" data-day="day2">Day 2 (22 Nov)</button>
+      </div>
+
+      <!-- Schedule Timeline Flow -->
+      <div class="schedule-timeline">
+        
+        <!-- Day 1 Event 01 -->
+        <div class="timeline-node" data-day="day1">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path><polyline points="10 17 15 12 10 7"></polyline><line x1="15" y1="12" x2="3" y2="12"></line></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day1">DAY 1 – 21 NOVEMBER 2026</span>
+            <h3 class="node-title">Delegate Registration and Arrival</h3>
+            <p class="node-desc">
+              Delegates check in at the main registration concourse, collect official ID credentials, delegate placards, conference kits, and enjoy welcome refreshments before proceedings begin.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 1 Event 02 -->
+        <div class="timeline-node" data-day="day1">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 2 15 8 22 9 17 14 18 21 12 17 6 21 7 14 2 9 9 8 12 2"></polygon></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day1">DAY 1 – 21 NOVEMBER 2026</span>
+            <h3 class="node-title">Grand Opening Ceremony</h3>
+            <p class="node-desc">
+              Formal opening of PG-MUN 2026 in the Plenary Hall. Welcome address by the Secretariat and Leadership of Dr. Pillai Global Academy, introduction of Executive Boards, and ceremonial gavel strike.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 1 Event 03 -->
+        <div class="timeline-node" data-day="day1">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day1">DAY 1 – 21 NOVEMBER 2026</span>
+            <h3 class="node-title">Committee Sessions Begin</h3>
+            <p class="node-desc">
+              Committees convene in dedicated council chambers. Formal roll call, setting of the substantive agenda, establishment of the General Speaker's List, and opening policy speeches.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 1 Event 04 -->
+        <div class="timeline-node" data-day="day1">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day1">DAY 1 – 21 NOVEMBER 2026</span>
+            <h3 class="node-title">Formal Debate and Negotiations</h3>
+            <p class="node-desc">
+              High-intensity moderated caucuses examining specific sub-issues, accompanied by strategic unmoderated caucuses for bloc formation, informal consultation, and early working paper frameworks.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 1 Event 05 -->
+        <div class="timeline-node" data-day="day1">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day1">DAY 1 – 21 NOVEMBER 2026</span>
+            <h3 class="node-title">Further Committee Proceedings &amp; Evening Debrief</h3>
+            <p class="node-desc">
+              Continuation of debate, crisis updates, review of working paper initial drafts with the Executive Board, and committee adjournment for Day 1.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 2 Event 01 -->
+        <div class="timeline-node" data-day="day2">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day2">DAY 2 – 22 NOVEMBER 2026</span>
+            <h3 class="node-title">Committee Sessions Reconvene</h3>
+            <p class="node-desc">
+              Second day opens with morning roll call, urgent crisis directives, and refinement of working papers into formal Draft Resolutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 2 Event 02 -->
+        <div class="timeline-node" data-day="day2">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day2">DAY 2 – 22 NOVEMBER 2026</span>
+            <h3 class="node-title">Debate and Negotiations</h3>
+            <p class="node-desc">
+              Introduction of formal Draft Resolutions on the committee floor, rigorous questioning of sponsors, cross-examination, and submission of friendly and unfriendly amendments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 2 Event 03 -->
+        <div class="timeline-node" data-day="day2">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16 16 12 12 8"></polyline></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day2">DAY 2 – 22 NOVEMBER 2026</span>
+            <h3 class="node-title">Closing Proceedings &amp; Voting Procedures</h3>
+            <p class="node-desc">
+              Committee enters voting procedure on all tabled Draft Resolutions and amendments. Final roll call votes, speeches for and against, and formal adoption of resolutions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 2 Event 04 -->
+        <div class="timeline-node" data-day="day2">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="node-card">
+            <span class="node-time-badge day2">DAY 2 – 22 NOVEMBER 2026</span>
+            <h3 class="node-title">Awards and Recognition Ceremony</h3>
+            <p class="node-desc">
+              Plenary Assembly gathers for closing remarks, Executive Board feedback, and presentation of prestigious trophies and certificates for Best Delegate, High Commendation, and Honourable Mentions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Day 2 Event 05 -->
+        <div class="timeline-node" data-day="day2">
+          <div class="node-marker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+          </div>
+          <div class="node-card" style="border-color: rgba(236, 72, 153, 0.4); background: linear-gradient(135deg, rgba(20, 24, 55, 0.9) 0%, rgba(14, 28, 54, 0.8) 100%);">
+            <span class="node-time-badge day2" style="background: rgba(236, 72, 153, 0.18); color: #f472b6; border-color: rgba(236, 72, 153, 0.4);">DAY 2 – GRAND FINALE</span>
+            <h3 class="node-title" style="color: #ffffff;">Special DJ Celebration</h3>
+            <p class="node-desc" style="color: var(--silver-primary);">
+              The official post-conference celebration! Delegates unwind with concert lighting, music, networking, and celebration with new friends to conclude PG-MUN 2026.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Official Schedule Notice Box -->
+      <div class="agenda-notice-box" style="margin-top: 4rem; max-width: 850px; margin-left: auto; margin-right: auto;">
+        <div class="agenda-notice-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        </div>
+        <div class="agenda-notice-content">
+          <h4>
+            Session Timings Notice
+            <span class="pulse-badge">Notice</span>
+          </h4>
+          <p style="color: var(--silver-primary); font-size: 0.95rem; margin-bottom: 0.5rem; line-height: 1.6;">
+            "Detailed session timings and the final conference schedule will be announced soon."
+          </p>
+          <p style="color: var(--gold-light); font-size: 0.85rem; margin: 0;">
+            All registered delegates will receive the finalized schedule and delegate handbook via official email ahead of the summit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Registration CTA Banner -->
+  <section class="section-padding" style="background: radial-gradient(circle at 50% 50%, rgba(20, 50, 100, 0.5) 0%, rgba(3, 7, 18, 0.95) 80%); border-top: 1px solid var(--border-glass);">
+    <div class="container text-center">
+      <div class="section-tag gold">Conference Registration</div>
+      <h2 class="section-title">SECURE YOUR DELEGATE ALLOCATION</h2>
+      <p class="section-subtitle" style="margin-bottom: 2rem;">
+        Two days of diplomacy, committee debates, networking, meals, and the DJ Party—all for ₹2,500.
+      </p>
+      <div class="hero-cta-group" style="justify-content: center;">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNv4Wtp6TJ-hSDyX7u2MZJtW9Ut5UFmDq5buCmw1AXc2uBw/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+          Register for PG-MUN 2026
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a href="committees.html" class="btn btn-outline btn-lg">Explore Committees</a>
+      </div>
+      <p style="margin-top: 1.5rem; font-size: 0.88rem; color: var(--gold-light);">
+        Registration Deadline: 30 October 2026 • Limited Seats Available
+      </p>
+    </div>
+  </section>
+
+  <!-- 16. Footer -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/pgmun_logo.png" alt="PG-MUN Official Seal">
+          <div class="brand-text">
+            <span class="brand-title" style="font-size: 1.3rem;">PG-MUN 2026</span>
+            <span class="brand-subtitle">Dr. Pillai Global Academy</span>
+          </div>
+        </div>
+        <p class="footer-tagline">"WHERE DIPLOMACY MEETS LEADERSHIP."</p>
+        <p style="font-size: 0.9rem; color: var(--silver-muted); margin-bottom: 1.5rem; line-height: 1.6;">
+          An international diplomatic simulation empowering students in Grades 7–12 to debate global issues, build negotiation acumen, and forge life-long leadership.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About PG-MUN</a></li>
+          <li><a href="committees.html">Committees</a></li>
+          <li><a href="awards.html">Awards &amp; Recognition</a></li>
+          <li><a href="experience.html">The Experience &amp; DJ Party</a></li>
+          <li><a href="schedule.html" style="color: var(--cyan-bright); font-weight: 600;">Conference Schedule</a></li>
+          <li><a href="venue.html">Venue &amp; Location</a></li>
+          <li><a href="faqs.html">Frequently Asked Questions</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Committees</h4>
+        <ul class="footer-links">
+          <li><a href="committee-unsc.html">UNSC (Security Council)</a></li>
+          <li><a href="committee-unep.html">UNEP (Environment)</a></li>
+          <li><a href="committee-disec.html">DISEC (Disarmament)</a></li>
+          <li><a href="committee-mythology.html">Indian Mythology</a></li>
+          <li><a href="committee-fifa.html">FIFA Council</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Secretariat &amp; Venue</h4>
+        <p style="font-size: 0.88rem; color: var(--silver-muted); margin-bottom: 0.75rem; line-height: 1.6;">
+          <strong>Dr. Pillai Global Academy</strong><br>
+          Sector 7, Khanda Colony, New Panvel, Navi Mumbai, Maharashtra 410206
+        </p>
+        <p style="font-size: 0.88rem; color: var(--silver-muted); margin-bottom: 0.75rem;">
+          Email: <a href="mailto:dpgamun2025@mes.ac.in" style="color: var(--cyan-bright);">dpgamun2025@mes.ac.in</a>
+        </p>
+        <p style="font-size: 0.88rem; color: var(--silver-muted); margin-bottom: 1.25rem;">
+          Instagram: <a href="https://www.instagram.com/dr.pillaiglobalmun/" target="_blank" rel="noopener noreferrer" style="color: var(--cyan-bright);">@dr.pillaiglobalmun</a>
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNv4Wtp6TJ-hSDyX7u2MZJtW9Ut5UFmDq5buCmw1AXc2uBw/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="width: 100%;">
+          Register via Google Form
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        <span>21–22 November 2026 | New Panvel, Maharashtra</span>
+      </div>
+      <div class="footer-credit">
+        Created by <span class="credit-name">Harshaan Singh Gujral</span>, Tech Head of DPGA
+      </div>
+      <div>
+        <span>&copy; 2026 PG-MUN. All Rights Reserved. Dr. Pillai Global Academy.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

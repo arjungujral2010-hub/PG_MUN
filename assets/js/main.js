@@ -192,7 +192,7 @@ const committeeData = {
     accentColor: '#00f0ff',
     desc: 'Step into the centre of international diplomacy and security. Engage with questions of global peace, international conflicts, security challenges and diplomatic decision-making.',
     intro: 'As the principal organ charged with ensuring international peace and security under the UN Charter, the UNSC at PG-MUN 2026 brings delegates into high-stakes diplomatic negotiations where sovereign interests and collective security collide.',
-    agendaStatus: 'Agenda: TBA (Official Announcement Coming Soon)',
+    agendaStatus: 'Agenda: Establishing Binding Legal Frameworks on the Operational Deployment of Lethal Autonomous Weapon Systems (LAWS) and Artificial Intelligence in Military Command Structures',
     bgGuide: 'Study Guide: In Preparation by the Secretariat',
     eb: 'Executive Board: Chairperson & Co-Chairperson To Be Announced',
     pageUrl: 'committee-unsc.html'
@@ -205,7 +205,7 @@ const committeeData = {
     accentColor: '#10b981',
     desc: 'Explore the environmental challenges shaping our planet. Debate sustainability, climate change, environmental protection and the future of international environmental cooperation.',
     intro: 'The United Nations Environment Programme serves as the authoritative global advocate for the environment. At PG-MUN 2026, UNEP delegates will address pressing ecological crises, planetary boundaries, and sustainable multi-lateral agreements.',
-    agendaStatus: 'Agenda: TBA (Official Announcement Coming Soon)',
+    agendaStatus: 'Agenda: Deliberation upon the Environmental Implications of Militarization and Military Activities in Fragile Ecosystems',
     bgGuide: 'Study Guide: In Preparation by the Secretariat',
     eb: 'Executive Board: Chairperson & Co-Chairperson To Be Announced',
     pageUrl: 'committee-unep.html'
@@ -218,7 +218,7 @@ const committeeData = {
     accentColor: '#3b82f6',
     desc: 'Engage with critical questions surrounding international security, disarmament, arms control and global peace. Explore the role of diplomacy in addressing international security challenges.',
     intro: 'DISEC deals with disarmament, global challenges, and threats to peace that affect the international community. Delegates represent member nations working to craft multilateral resolutions on arms treaties and strategic deterrence.',
-    agendaStatus: 'Agenda: TBA (Official Announcement Coming Soon)',
+    agendaStatus: 'Agenda: Deliberation on Strengthening Nuclear Arms Control and Preventing Strategic Escalation Amid Renewed Great-Power Rivalry',
     bgGuide: 'Study Guide: In Preparation by the Secretariat',
     eb: 'Executive Board: Chairperson & Co-Chairperson To Be Announced',
     pageUrl: 'committee-disec.html'
@@ -231,7 +231,7 @@ const committeeData = {
     accentColor: '#f59e0b',
     desc: 'Enter a world of legendary narratives, powerful characters and complex moral dilemmas. Explore iconic stories, perspectives, conflicts and decisions through an immersive committee experience.',
     intro: 'Step back to the epic crossroads of Kurukshetra, where the rules of warfare, allegiance, duty, and Dharma undergo rigorous moral scrutiny. Delegates step into the minds of legendary leaders and philosophers.',
-    agendaStatus: 'Agenda: TBA (Official Announcement Coming Soon)',
+    agendaStatus: 'Agenda: Can a just cause excuse every method used to win a war? (Kurukshetra, Rules of War, Dharma)',
     bgGuide: 'Study Guide: In Preparation by the Secretariat',
     eb: 'Executive Board: Chairperson & Co-Chairperson To Be Announced',
     pageUrl: 'committee-mythology.html'
@@ -244,7 +244,7 @@ const committeeData = {
     accentColor: '#ec4899',
     desc: 'Step into the world of international football governance, sporting diplomacy and decision-making. Explore the challenges and global influence of the beautiful game.',
     intro: 'Football is more than a sport; it is an economic powerhouse and diplomatic medium uniting billions. In the FIFA Council at PG-MUN 2026, delegates explore integrity, hosting rights, player regulations, and geopolitical soft power.',
-    agendaStatus: 'Agenda: TBA (Official Announcement Coming Soon)',
+    agendaStatus: 'Agenda: Deliberation on VAR, Refereeing Controversies, and Fairness in Football',
     bgGuide: 'Study Guide: In Preparation by the Secretariat',
     eb: 'Executive Board: Chairperson & Co-Chairperson To Be Announced',
     pageUrl: 'committee-fifa.html'
